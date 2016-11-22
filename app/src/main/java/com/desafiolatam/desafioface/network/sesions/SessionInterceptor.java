@@ -14,7 +14,7 @@ public class SessionInterceptor {
     public Session getInterceptor()
     {
         Retrofit interceptor = new Retrofit.Builder()
-                .baseUrl(Constants.ENDPOINT)
+                .baseUrl(Constants.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

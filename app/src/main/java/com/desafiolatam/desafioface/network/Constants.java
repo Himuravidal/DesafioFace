@@ -6,7 +6,10 @@ package com.desafiolatam.desafioface.network;
 
 public class Constants {
 
-    public static final String ENDPOINT = "https://empieza.desafiolatam.com";
+    public static final String BASE_URL = "https://empieza.desafiolatam.com";
+
+    public static final int STATUS_OK = 200;
+
 
 
 
