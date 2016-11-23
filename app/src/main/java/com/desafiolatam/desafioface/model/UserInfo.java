@@ -1,10 +1,12 @@
 package com.desafiolatam.desafioface.model;
 
+import com.orm.SugarRecord;
+
 /**
  * Created by cristian on 22-11-2016.
  */
 
-public class UserInfo {
+public class UserInfo extends BaseSugar{
 
     public UserInfo() {
     }
@@ -42,4 +44,5 @@ public class UserInfo {
     public void setPhoto_url(String photo_url) {
         this.photo_url = photo_url;
     }
+
 }

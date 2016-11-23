@@ -10,6 +10,8 @@ public class Constants {
 
     public static final int STATUS_OK = 200;
 
+    public static final String CONNECTION_SUCCESS ="CONNECTION_SUCCESS";
+    public static final String CONNECTION_ERROR = "CONNECTION_ERROR";
 
 
 
